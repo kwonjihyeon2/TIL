@@ -1,4 +1,4 @@
-## useSyncExternalStore
+# useSyncExternalStore
 
 React는 useSyncExternalStore를 사용해 컴포넌트를 store에 구독한 상태로 유지하고 변경 사항이 있을 때 리렌더링한다.<br/>
 컴포넌트의 최상위 레벨에서 useSyncExternalStore를 호출하여 <u>외부 데이터 저장소</u>에서 값을 불러온다.

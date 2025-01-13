@@ -1,4 +1,4 @@
-## useTransition
+# useTransition
 
 concurrent rendering 을 지원하는 react hook
 
@@ -26,7 +26,7 @@ const [isPending, startTransition] = useTransition();
 예시 코드
 
 ```js
-import { useState, useTransition } from 'react';
+import { useState, useTransition } from "react";
 
 function TabContainer() {
   const [count, setCount] = useState(0);
